@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Notepad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/tv_noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat_bold"
+
+            android:gravity="center"
+            android:hint="Title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Enter text here"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:textSize="26sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textStyle="bold"
+            android:id="@+id/savebtn"/>
+    </LinearLayout>
+
+</FrameLayout>

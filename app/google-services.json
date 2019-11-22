@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "758242963129",
+    "firebase_url": "https://notetime-83c6e.firebaseio.com",
+    "project_id": "notetime-83c6e",
+    "storage_bucket": "notetime-83c6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758242963129:android:023bccf51db3f50084b568",
+        "android_client_info": {
+          "package_name": "com.example.notetime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758242963129-bga67fudvo71knsa0us8ot8qp6ussetc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notetime",
+            "certificate_hash": "2fa8e614f90aaf8eff50d0d04e6d37a9ff7f405e"
+          }
+        },
+        {
+          "client_id": "758242963129-3v7qqvsbt38d5set6mb3ajhfa2d7ues4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA_qR-taO0uLK81lJMJFrZ2bv5sYqNpyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758242963129-3v7qqvsbt38d5set6mb3ajhfa2d7ues4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

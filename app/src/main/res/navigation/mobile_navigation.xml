@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_worldclock">
+
+
+    <fragment
+        android:id="@+id/nav_worldclock"
+        android:name="com.example.notetime.fragments.WorldClock"
+        android:label="World Clock"
+        tools:layout="@layout/world_clock_fragment"/>
+
+
+    <fragment
+        android:id="@+id/nav_signout"
+        android:name="com.example.notetime.fragments.Logout"
+        android:label="Sign out"
+        tools:layout="@layout/logout_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_notelist"
+        android:name="com.example.notetime.fragments.NoteList"
+        android:label="Note List"
+        tools:layout="@layout/note_list_fragment"/>
+
+
+
+</navigation>
