@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav__side_view);
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_worldclock, R.id.nav_notelist,
+                R.id.nav_notelist,
+                R.id.nav_worldclock,
                 R.id.nav_signout)
                 .setDrawerLayout(drawer)
                 .build();

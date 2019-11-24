@@ -44,7 +44,7 @@ public class TimeRepository {
             @Override
             public void onResponse(Call<TimeResponse> call, Response<TimeResponse> response) {
                 if (response.code() == 200) {
-                    time.setValue(response.body().getTime());
+                      time.setValue(response.body().getTime());
                 }
             }
 

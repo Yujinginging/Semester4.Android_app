@@ -52,4 +52,5 @@ public class Logout extends Fragment implements View.OnClickListener{
         startActivity(new Intent(getContext(), Login.class));
         getActivity().finish();
     }
+
 }
